@@ -65,5 +65,5 @@ with(epc4, plot(datetime, Global_reactive_power, type="l",  main = ""))
 
 
 ##Save the file in PNG format
-dev.copy(png, file="./data/Plot4.png", width=480,height=480,units="px")
+dev.copy(png, file="./data/plot4.png", width=480,height=480,units="px")
 dev.off()

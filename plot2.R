@@ -43,5 +43,5 @@ par(mfrow = c(1,1))
 with(epc2, plot(DateFull, Global_active_power, type="l",  main = "" , xlab = "", ylab = "Global Active Power (kilowatts)"))
 
 ##Save the file in PNG format
-dev.copy(png, file="./data/Plot2.png", width=480,height=480,units="px")
+dev.copy(png, file="./data/plot2.png", width=480,height=480,units="px")
 dev.off()

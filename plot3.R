@@ -48,5 +48,5 @@ lines(epc3$DateFull, epc3$Sub_metering_3, col = "blue", type = "l")
 legend("topright", legend = c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lwd=1, cex=0.7)
 
 ##Save the file in PNG format
-dev.copy(png, file="./data/Plot3.png", width=480,height=480,units="px")
+dev.copy(png, file="./data/plot3.png", width=480,height=480,units="px")
 dev.off()
